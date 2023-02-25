@@ -9,5 +9,5 @@ wget -N -O downloads/LoL https://msi.nga.mil/MSISiteContent/StaticFiles/NAV_PUBS
 wget -N -O downloads/LoL https://msi.nga.mil/MSISiteContent/StaticFiles/NAV_PUBS/NIMA_LOL/Pub116/Pub116.xml
 
 ## get extract of current osm seamarks
-wget -O downloads/osm/seamarks-planet.osm  --timeout=600 --post-file=./query/overpass-api-planet.ql        "http://overpass-api.de/api/interpreter"
+wget -O downloads/osm/seamarks-planet.osm  --timeout=600 --post-file=./query/overpass-api-planet.overpassql        "http://overpass-api.de/api/interpreter"
 
