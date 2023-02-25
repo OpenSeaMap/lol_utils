@@ -131,7 +131,7 @@ class osmdb():
         DOMTree = xml.dom.minidom.parse(self.filename)
         collection = DOMTree.documentElement
 
-        # Get all the overpass-api-lights-planet.qlmovies in the collection
+        # Get all the overpass-api-lights-planet.overpassql movies in the collection
         self.SeaMarkList = collection.getElementsByTagName("node")
         self.SeaMarkList += collection.getElementsByTagName("rel")
         self.SeaMarkList += collection.getElementsByTagName("way")
